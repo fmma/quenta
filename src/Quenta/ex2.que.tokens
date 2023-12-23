@@ -1,0 +1,9 @@
+
+OpenBracket Round        "("
+  Ident                    "a"
+  Whitespace               " "
+  Symbol                   "->"
+  Whitespace               " "
+  Ident                    "b"
+CloseBracket Round       ")"
+Newline                  "\n"

@@ -1,0 +1,14 @@
+interface Maybe a -> (a -> b) -> b
+
+    isJust : Bool
+    isJust
+        maybe False (_ => True)
+
+class Just a : Maybe a
+    value : a
+    maybe _ f
+        f value
+
+class Nothing : Maybe a
+    maybe b _
+        b

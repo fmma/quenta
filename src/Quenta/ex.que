@@ -1,0 +1,6 @@
+import Bar;
+
+class Foo : IFoo {
+    foo : () -> int;
+    foo = x : int => 20 + 30 + x;
+}
